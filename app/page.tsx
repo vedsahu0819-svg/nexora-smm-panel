@@ -3,81 +3,106 @@ export default function Page() {
     <main
       style={{
         minHeight: "100vh",
-        background: "#0f172a",
+        background: "#020617",
         color: "white",
-        padding: "40px",
-        fontFamily: "Arial"
+        fontFamily: "Arial",
       }}
     >
-      <h1 style={{ fontSize: "48px", fontWeight: "bold" }}>
-        Nexora SMM Panel 🚀
-      </h1>
-
-      <p
+      {/* Navbar */}
+      <nav
         style={{
-          marginTop: "10px",
-          fontSize: "18px",
-          color: "#cbd5e1"
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "20px 40px",
+          borderBottom: "1px solid #1e293b",
+          alignItems: "center",
         }}
       >
-        Cheapest & Fastest Social Media Marketing Services
-      </p>
+        <h1 style={{ fontSize: "28px", fontWeight: "bold" }}>
+          NexoraSMM 🚀
+        </h1>
 
-      <div
+        <div style={{ display: "flex", gap: "20px" }}>
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+            Services
+          </a>
+
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+            Pricing
+          </a>
+
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+            Login
+          </a>
+        </div>
+      </nav>
+
+      {/* Hero */}
+      <section
         style={{
-          marginTop: "40px",
+          padding: "80px 40px",
+          textAlign: "center",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "56px",
+            fontWeight: "bold",
+            maxWidth: "900px",
+            margin: "auto",
+          }}
+        >
+          Fastest & Cheapest SMM Panel in the Market ⚡
+        </h2>
+
+        <p
+          style={{
+            marginTop: "20px",
+            color: "#94a3b8",
+            fontSize: "20px",
+          }}
+        >
+          Buy Instagram, YouTube, Telegram & TikTok services instantly.
+        </p>
+
+        <button
+          style={{
+            marginTop: "35px",
+            background: "#2563eb",
+            border: "none",
+            color: "white",
+            padding: "16px 34px",
+            borderRadius: "14px",
+            fontSize: "18px",
+            cursor: "pointer",
+          }}
+        >
+          Get Started
+        </button>
+      </section>
+
+      {/* Stats */}
+      <section
+        style={{
           display: "grid",
-          gap: "20px"
+          gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))",
+          gap: "20px",
+          padding: "20px 40px 80px",
         }}
       >
-        <div
-          style={{
-            background: "#1e293b",
-            padding: "20px",
-            borderRadius: "16px"
-          }}
-        >
-          <h2>⚡ Instant Orders</h2>
-          <p>Fast processing for all social media services.</p>
-        </div>
-
-        <div
-          style={{
-            background: "#1e293b",
-            padding: "20px",
-            borderRadius: "16px"
-          }}
-        >
-          <h2>💰 Cheapest Rates</h2>
-          <p>Affordable pricing with high quality delivery.</p>
-        </div>
-
-        <div
-          style={{
-            background: "#1e293b",
-            padding: "20px",
-            borderRadius: "16px"
-          }}
-        >
-          <h2>🔒 Secure Platform</h2>
-          <p>Safe payments and reliable infrastructure.</p>
-        </div>
-      </div>
-
-      <button
-        style={{
-          marginTop: "40px",
-          background: "#3b82f6",
-          border: "none",
-          padding: "14px 28px",
-          borderRadius: "12px",
-          color: "white",
-          fontSize: "18px",
-          cursor: "pointer"
-        }}
-      >
-        Get Started
-      </button>
-    </main>
-  );
-}
+        {[
+          ["1M+", "Orders Completed"],
+          ["24/7", "Customer Support"],
+          ["500+", "Services Available"],
+          ["99.9%", "Uptime Guarantee"],
+        ].map(([title, desc]) => (
+          <div
+            key={title}
+            style={{
+              background: "#111827",
+              padding: "30px",
+              borderRadius: "20px",
+              border: "1px solid #1e293b",
+            }}
+          >
+            <h3 style={{ fontSize: "36
