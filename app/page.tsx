@@ -3,7 +3,8 @@ export default function Page() {
     <main
       style={{
         minHeight: "100vh",
-        background: "#020617",
+        background:
+          "linear-gradient(to bottom right, #020617, #0f172a, #111827)",
         color: "white",
         fontFamily: "Arial",
       }}
@@ -13,96 +14,89 @@ export default function Page() {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          padding: "20px 40px",
-          borderBottom: "1px solid #1e293b",
           alignItems: "center",
+          padding: "24px 40px",
+          borderBottom: "1px solid rgba(255,255,255,0.08)",
+          backdropFilter: "blur(10px)",
         }}
       >
-        <h1 style={{ fontSize: "28px", fontWeight: "bold" }}>
+        <h1
+          style={{
+            fontSize: "28px",
+            fontWeight: "bold",
+            color: "#60a5fa",
+          }}
+        >
           NexoraSMM 🚀
         </h1>
 
-        <div style={{ display: "flex", gap: "20px" }}>
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+        <div style={{ display: "flex", gap: "24px" }}>
+          <a
+            href="#"
+            style={{
+              color: "#cbd5e1",
+              textDecoration: "none",
+            }}
+          >
             Services
           </a>
 
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <a
+            href="#"
+            style={{
+              color: "#cbd5e1",
+              textDecoration: "none",
+            }}
+          >
             Pricing
           </a>
 
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <a
+            href="#"
+            style={{
+              color: "#cbd5e1",
+              textDecoration: "none",
+            }}
+          >
             Login
           </a>
         </div>
       </nav>
 
-      {/* Hero */}
+      {/* Hero Section */}
       <section
         style={{
-          padding: "80px 40px",
           textAlign: "center",
+          padding: "100px 20px 80px",
         }}
       >
-        <h2
+        <div
           style={{
-            fontSize: "56px",
-            fontWeight: "bold",
-            maxWidth: "900px",
-            margin: "auto",
+            display: "inline-block",
+            padding: "10px 20px",
+            borderRadius: "999px",
+            background: "rgba(59,130,246,0.15)",
+            color: "#93c5fd",
+            marginBottom: "24px",
+            border: "1px solid rgba(96,165,250,0.3)",
           }}
         >
-          Fastest & Cheapest SMM Panel in the Market ⚡
+          ⚡ #1 Cheapest SMM Panel
+        </div>
+
+        <h2
+          style={{
+            fontSize: "64px",
+            maxWidth: "950px",
+            margin: "auto",
+            lineHeight: "1.1",
+            fontWeight: "bold",
+          }}
+        >
+          Grow Your Social Media Presence Instantly 🚀
         </h2>
 
         <p
           style={{
-            marginTop: "20px",
-            color: "#94a3b8",
-            fontSize: "20px",
-          }}
-        >
-          Buy Instagram, YouTube, Telegram & TikTok services instantly.
-        </p>
-
-        <button
-          style={{
-            marginTop: "35px",
-            background: "#2563eb",
-            border: "none",
-            color: "white",
-            padding: "16px 34px",
-            borderRadius: "14px",
-            fontSize: "18px",
-            cursor: "pointer",
-          }}
-        >
-          Get Started
-        </button>
-      </section>
-
-      {/* Stats */}
-      <section
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))",
-          gap: "20px",
-          padding: "20px 40px 80px",
-        }}
-      >
-        {[
-          ["1M+", "Orders Completed"],
-          ["24/7", "Customer Support"],
-          ["500+", "Services Available"],
-          ["99.9%", "Uptime Guarantee"],
-        ].map(([title, desc]) => (
-          <div
-            key={title}
-            style={{
-              background: "#111827",
-              padding: "30px",
-              borderRadius: "20px",
-              border: "1px solid #1e293b",
-            }}
-          >
-            <h3 style={{ fontSize: "36
+            marginTop: "24px",
+            color:
