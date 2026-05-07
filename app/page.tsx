@@ -32,7 +32,7 @@ export default function Page() {
 
         <div style={{ display: "flex", gap: "24px" }}>
           <a
-            href="#"
+            href="/services"
             style={{
               color: "#cbd5e1",
               textDecoration: "none",
@@ -42,7 +42,7 @@ export default function Page() {
           </a>
 
           <a
-            href="#"
+            href="/services"
             style={{
               color: "#cbd5e1",
               textDecoration: "none",
@@ -52,7 +52,7 @@ export default function Page() {
           </a>
 
           <a
-            href="#"
+            href="/services"
             style={{
               color: "#cbd5e1",
               textDecoration: "none",
