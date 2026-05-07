@@ -99,4 +99,4 @@ export default function Page() {
         <p
           style={{
             marginTop: "24px",
-            color:
+            color
