@@ -1,4 +1,4 @@
-seexport default function Page() {
+export default function Page() {
   return (
     <main
       style={{
