@@ -1,102 +1,24 @@
 export default function Page() {
   return (
-    <main
+    <div
       style={{
         minHeight: "100vh",
-        background:
-          "linear-gradient(to bottom right, #020617, #0f172a, #111827)",
+        background: "black",
         color: "white",
-        fontFamily: "Arial",
+        padding: "40px",
+        fontFamily: "Arial"
       }}
     >
-      <nav
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "24px 40px",
-          borderBottom: "1px solid rgba(255,255,255,0.08)",
-        }}
-      >
-        <h1
-          style={{
-            fontSize: "28px",
-            fontWeight: "bold",
-            color: "#60a5fa",
-          }}
-        >
-          NexoraSMM 🚀
-        </h1>
+      <h1>NexoraSMM 🚀</h1>
 
-        <div
-          style={{
-            display: "flex",
-            gap: "24px",
-          }}
-        >
-          <a
-            href="/services"
-            style={{
-              color: "#cbd5e1",
-              textDecoration: "none",
-            }}
-          >
-            Services
-          </a>
+      <br />
 
-          <a
-            href="#"
-            style={{
-              color: "#cbd5e1",
-              textDecoration: "none",
-            }}
-          >
-            Pricing
-          </a>
+      <a href="/services">Services</a>
 
-          <a
-            href="/login"
-            style={{
-              color: "#cbd5e1",
-              textDecoration: "none",
-            }}
-          >
-            Login
-          </a>
-        </div>
-      </nav>
+      <br />
+      <br />
 
-      <section
-        style={{
-          textAlign: "center",
-          padding: "100px 20px 80px",
-        }}
-      >
-        <div
-          style={{
-            display: "inline-block",
-            padding: "10px 20px",
-            borderRadius: "999px",
-            background: "rgba(59,130,246,0.15)",
-            color: "#93c5fd",
-            marginBottom: "24px",
-          }}
-        >
-          ⚡ #1 Cheapest SMM Panel
-        </div>
-
-        <h2
-          style={{
-            fontSize: "64px",
-            maxWidth: "950px",
-            margin: "auto",
-            lineHeight: "1.1",
-            fontWeight: "bold",
-          }}
-        >
-          Grow Your Social Media Presence Instantly 🚀
-        </h2>
-
-        <p
-          style={{
-            marginTop: "
+      <a href="/login">Login</a>
+    </div>
+  );
+}
